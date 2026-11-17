@@ -1,3 +1,4 @@
+import os
 import urllib.request
 import urllib.parse
 import json
@@ -5,7 +6,7 @@ import mimetypes
 import uuid
 import sys
 
-BASE_URL = "http://localhost:8080"
+BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:8080").rstrip("/")
 
 results = []
 

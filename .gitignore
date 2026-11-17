@@ -1,6 +1,7 @@
 # Operating System
 .DS_Store
 Thumbs.db
+*.zip
 
 # Maven / Java
 **/target/

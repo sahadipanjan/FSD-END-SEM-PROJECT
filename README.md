@@ -7,6 +7,17 @@ A complete, full-stack enterprise web portal designed for universities to stream
 
 ---
 
+## Live Deployment
+
+| Layer | Platform | URL |
+| :--- | :--- | :--- |
+| **Frontend Portal** | Vercel | [https://campus-lost-and-found-iota-eight.vercel.app](https://campus-lost-and-found-iota-eight.vercel.app) |
+| **Backend REST API** | Railway | [https://backend-production-2eb3a06c.up.railway.app](https://backend-production-2eb3a06c.up.railway.app) |
+| **Swagger / OpenAPI Docs** | Railway | [https://backend-production-2eb3a06c.up.railway.app/swagger-ui.html](https://backend-production-2eb3a06c.up.railway.app/swagger-ui.html) |
+| **Database** | Neon PostgreSQL | Managed PostgreSQL 17 (`ap-southeast-1`) |
+
+---
+
 ## Quick Start (Zero-Install H2 Mode in 3 Commands)
 
 ### 1. Start Backend (Terminal 1)
