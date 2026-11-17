@@ -1,0 +1,14 @@
+# System
+.env
+.DS_Store
+
+# Nixpacks / Railway cache
+.nixpacks/
+
+# Maven
+target/
+*.class
+
+# IDE
+.idea/
+*.iml

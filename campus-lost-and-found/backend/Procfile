@@ -1,0 +1,1 @@
+web: java -Dspring.profiles.active=prod -jar target/lost-and-found-backend-1.0.0.jar
